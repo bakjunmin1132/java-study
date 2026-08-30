@@ -9,14 +9,14 @@ public class ArrayListEx {
         pitches.add("129");
         pitches.add("142");
         pitches.add(0, "133");
-        System.out.println(pitches.get(0)); // 133
-        for (int i = 0; i < pitches.size(); i++) {
-            System.out.printf("%s ", pitches.get(i));
-        }
-        System.out.println();
+        pitches.remove(0); // or pitches.remove("133");
+        System.out.println(pitches.get(0));
+        System.out.println(pitches);
 
         System.out.println(pitches.contains("142")); // true
         System.out.println(pitches.contains("1")); // false
-        System.out.println(pitches.indexOf("129")); // 2
+        System.out.println(pitches.indexOf("129")); // 1
+
+        System.out.println(pitches.size()); // 3
     }
 }
