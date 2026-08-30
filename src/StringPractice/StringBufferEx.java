@@ -1,6 +1,6 @@
 package StringPractice;
 
-public class StringBufferEx2 {
+public class StringBufferEx {
     static void main() {
 //        StringBuilder sb = new StringBuilder();
 //        sb.append("hello");

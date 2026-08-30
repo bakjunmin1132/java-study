@@ -1,6 +1,6 @@
 package StringPractice;
 
-public class StringEx1 {
+public class StringEx {
     static void main() {
 //        String a = "Hello";
 //        String b = new String("Hello");
@@ -26,7 +26,7 @@ public class StringEx1 {
 //            System.out.printf("%s ", i);
 //        }
 //        System.out.println();
-        
+
 
     }
 }
