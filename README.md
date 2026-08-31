@@ -1,3 +1,3 @@
 # java-study
 
-## after if for while
+## about java
