@@ -11,7 +11,7 @@ public class HashMapEx {
         System.out.println(map.get("people")); // 사람
         System.out.println(map.containsKey("people")); // true
         System.out.println(map.remove("people")); // 사람 출력 후 people 키 삭제
-        System.out.println(map.size()); // 1
+        System.out.println(map.size()); // 2
 
         System.out.println(map.keySet());
         System.out.println(map.values());
