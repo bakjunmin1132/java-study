@@ -29,7 +29,6 @@ class Tiger extends Animal implements Predator, Barkable { // 나는 동물 자�
     public void bark() {
         System.out.println("어흥");
     }
-
 }
 
 class Lion extends Animal implements Predator {
